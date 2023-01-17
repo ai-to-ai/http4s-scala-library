@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.typelevel</groupId>
+    <artifactId>cats-kernel_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>Cats kernel</description>
+    <url>https://typelevel.org/cats</url>
+    <version>2.8.0</version>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>Cats kernel</name>
+    <inceptionYear>2015</inceptionYear>
+    <organization>
+        <name>Typelevel</name>
+        <url>https://typelevel.org</url>
+    </organization>
+    <scm>
+        <url>https://github.com/typelevel/cats</url>
+        <connection>scm:git:https://github.com/typelevel/cats.git</connection>
+        <developerConnection>scm:git:git@github.com:typelevel/cats.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>ceedubs</id>
+            <name>Cody Allen</name>
+            <url>https://github.com/ceedubs</url>
+            <email>@ceedubs</email>
+        </developer>
+        <developer>
+            <id>rossabaker</id>
+            <name>Ross Baker</name>
+            <url>https://github.com/rossabaker</url>
+            <email>@rossabaker</email>
+        </developer>
+        <developer>
+            <id>armanbilge</id>
+            <name>Arman Bilge</name>
+            <url>https://github.com/armanbilge</url>
+            <email>@armanbilge</email>
+        </developer>
+        <developer>
+            <id>johnynek</id>
+            <name>P. Oscar Boykin</name>
+            <url>https://github.com/johnynek</url>
+            <email>@johnynek</email>
+        </developer>
+        <developer>
+            <id>travisbrown</id>
+            <name>Travis Brown</name>
+            <url>https://github.com/travisbrown</url>
+            <email>@travisbrown</email>
+        </developer>
+        <developer>
+            <id>adelbertc</id>
+            <name>Adelbert Chang</name>
+            <url>https://github.com/adelbertc</url>
+            <email>@adelbertc</email>
+        </developer>
+        <developer>
+            <id>danicheg</id>
+            <name>Daniel Esik</name>
+            <url>https://github.com/danicheg</url>
+            <email>@danicheg</email>
+        </developer>
+        <developer>
+            <id>peterneyens</id>
+            <name>Peter Neyens</name>
+            <url>https://github.com/peterneyens</url>
+            <email>@peterneyens</email>
+        </developer>
+        <developer>
+            <id>tpolecat</id>
+            <name>Rob Norris</name>
+            <url>https://github.com/tpolecat</url>
+            <email>@tpolecat</email>
+        </developer>
+        <developer>
+            <id>non</id>
+            <name>Erik Osheim</name>
+            <url>https://github.com/non</url>
+            <email>@non</email>
+        </developer>
+        <developer>
+            <id>LukaJCB</id>
+            <name>LukaJCB</name>
+            <url>https://github.com/LukaJCB</url>
+            <email>@LukaJCB</email>
+        </developer>
+        <developer>
+            <id>mpilquist</id>
+            <name>Michael Pilquist</name>
+            <url>https://github.com/mpilquist</url>
+            <email>@mpilquist</email>
+        </developer>
+        <developer>
+            <id>milessabin</id>
+            <name>Miles Sabin</name>
+            <url>https://github.com/milessabin</url>
+            <email>@milessabin</email>
+        </developer>
+        <developer>
+            <id>djspiewak</id>
+            <name>Daniel Spiewak</name>
+            <url>https://github.com/djspiewak</url>
+            <email>@djspiewak</email>
+        </developer>
+        <developer>
+            <id>fthomas</id>
+            <name>Frank Thomas</name>
+            <url>https://github.com/fthomas</url>
+            <email>@fthomas</email>
+        </developer>
+        <developer>
+            <id>satorg</id>
+            <name>Sergey Torgashov</name>
+            <url>https://github.com/satorg</url>
+            <email>@satorg</email>
+        </developer>
+        <developer>
+            <id>julien-truffaut</id>
+            <name>Julien Truffaut</name>
+            <url>https://github.com/julien-truffaut</url>
+            <email>@julien-truffaut</email>
+        </developer>
+        <developer>
+            <id>kailuowang</id>
+            <name>Kailuo Wang</name>
+            <url>https://github.com/kailuowang</url>
+            <email>@kailuowang</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://www.javadoc.io/doc/org.typelevel/cats-docs_2.13/2.8.0/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalameta</groupId>
+            <artifactId>munit_2.13</artifactId>
+            <version>1.0.0-M5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>discipline-munit_2.13</artifactId>
+            <version>2.0.0-M2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

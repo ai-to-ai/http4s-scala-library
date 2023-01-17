@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.http4s</groupId>
+    <artifactId>http4s-core_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>Core http4s library for servers and clients</description>
+    <url>https://http4s.org/</url>
+    <version>0.23.16</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>core</name>
+    <inceptionYear>2013</inceptionYear>
+    <organization>
+        <name>http4s.org</name>
+    </organization>
+    <scm>
+        <url>https://github.com/http4s/http4s</url>
+        <connection>git@github.com:http4s/http4s.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>rossabaker</id>
+            <name>Ross A. Baker</name>
+            <url>https://github.com/rossabaker</url>
+            <email>@rossabaker</email>
+        </developer>
+        <developer>
+            <id>aeons</id>
+            <name>Bjørn Madsen</name>
+            <url>https://github.com/aeons</url>
+            <email>bm@aeons.dk</email>
+        </developer>
+        <developer>
+            <id>before</id>
+            <name>André Rouel</name>
+            <url>https://github.com/before</url>
+        </developer>
+        <developer>
+            <id>bfritz</id>
+            <name>Brad Fritz</name>
+            <url>https://github.com/bfritz</url>
+        </developer>
+        <developer>
+            <id>bryce-anderson</id>
+            <name>Bryce L. Anderson</name>
+            <url>https://github.com/bryce-anderson</url>
+            <email>bryce.anderson22@gmail.com</email>
+        </developer>
+        <developer>
+            <id>casualjim</id>
+            <name>Ivan Porto Carrero</name>
+            <url>https://github.com/casualjim</url>
+            <email>ivan@flanders.co.nz</email>
+        </developer>
+        <developer>
+            <id>cencarnacion</id>
+            <name>Carlos Encarnacion</name>
+            <url>https://github.com/cencarnacion</url>
+        </developer>
+        <developer>
+            <id>ChristopherDavenport</id>
+            <name>Christopher Davenport</name>
+            <url>https://github.com/ChristopherDavenport</url>
+            <email>chris@christopherdavenport.tech</email>
+        </developer>
+        <developer>
+            <id>cquiroz</id>
+            <name>Carlos Quiroz</name>
+            <url>https://github.com/cquiroz</url>
+        </developer>
+        <developer>
+            <id>hvesalai</id>
+            <name>Heikki Vesalainen</name>
+            <url>https://github.com/hvesalai</url>
+        </developer>
+        <developer>
+            <id>jcranky</id>
+            <name>Paulo Siqueira</name>
+            <url>https://github.com/jcranky</url>
+        </developer>
+        <developer>
+            <id>jedesah</id>
+            <name>Jean-Rémi Desjardins</name>
+            <url>https://github.com/jedesah</url>
+        </developer>
+        <developer>
+            <id>jmcardon</id>
+            <name>Jose Cardona</name>
+            <url>https://github.com/jmcardon</url>
+        </developer>
+        <developer>
+            <id>julien-truffaut</id>
+            <name>Julien Truffaut</name>
+            <url>https://github.com/julien-truffaut</url>
+        </developer>
+        <developer>
+            <id>kryptt</id>
+            <name>Rodolfo Hansen</name>
+            <url>https://github.com/kryptt</url>
+        </developer>
+        <developer>
+            <id>reactormonk</id>
+            <name>Simon Hafner</name>
+            <url>https://github.com/reactormonk</url>
+        </developer>
+        <developer>
+            <id>refried</id>
+            <name>Arya Irani</name>
+            <url>https://github.com/refried</url>
+        </developer>
+        <developer>
+            <id>rossabaker</id>
+            <name>Ross A. Baker</name>
+            <url>https://github.com/rossabaker</url>
+            <email>ross@rossabaker.com</email>
+        </developer>
+        <developer>
+            <id>shengc</id>
+            <name>Sheng Chen</name>
+            <url>https://github.com/shengc</url>
+        </developer>
+        <developer>
+            <id>SystemFw</id>
+            <name>Fabio Labella</name>
+            <url>https://github.com/SystemFw</url>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://www.javadoc.io/doc/org.http4s/http4s-docs_2.13/0.23.16/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-laws_2.13</artifactId>
+            <version>2.8.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.6</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalacheck</groupId>
+            <artifactId>scalacheck_2.13</artifactId>
+            <version>1.16.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>case-insensitive_2.13</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-core_2.13</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect-std_2.13</artifactId>
+            <version>3.3.14</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-parse_2.13</artifactId>
+            <version>0.3.8</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.typelevel</groupId>
+                    <artifactId>cats-core_2.13</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.http4s</groupId>
+            <artifactId>http4s-crypto_2.13</artifactId>
+            <version>0.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>co.fs2</groupId>
+            <artifactId>fs2-core_2.13</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>co.fs2</groupId>
+            <artifactId>fs2-io_2.13</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.comcast</groupId>
+            <artifactId>ip4s-core_2.13</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>literally_2.13</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalameta</groupId>
+            <artifactId>munit_2.13</artifactId>
+            <version>1.0.0-M6</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scodec</groupId>
+            <artifactId>scodec-bits_2.13</artifactId>
+            <version>1.1.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>vault_2.13</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.13.8</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.log4s</groupId>
+            <artifactId>log4s_2.13</artifactId>
+            <version>1.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>log4cats-slf4j_2.13</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+    </dependencies>
+</project>

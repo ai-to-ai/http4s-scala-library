@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>co.fs2</groupId>
+    <artifactId>fs2-core_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>fs2-core</description>
+    <url>https://typelevel.org/fs2</url>
+    <version>3.3.0</version>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>fs2-core</name>
+    <inceptionYear>2013</inceptionYear>
+    <organization>
+        <name>Functional Streams for Scala</name>
+    </organization>
+    <scm>
+        <url>https://github.com/typelevel/fs2</url>
+        <connection>scm:git:https://github.com/typelevel/fs2.git</connection>
+        <developerConnection>scm:git:git@github.com:typelevel/fs2.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>mpilquist</id>
+            <name>Michael Pilquist</name>
+            <url>https://github.com/mpilquist</url>
+            <email>@mpilquist</email>
+        </developer>
+        <developer>
+            <id>pchiusano</id>
+            <name>Paul Chiusano</name>
+            <url>https://github.com/pchiusano</url>
+            <email>@pchiusano</email>
+        </developer>
+        <developer>
+            <id>pchlupacek</id>
+            <name>Pavel Chlupáček</name>
+            <url>https://github.com/pchlupacek</url>
+            <email>@pchlupacek</email>
+        </developer>
+        <developer>
+            <id>SystemFw</id>
+            <name>Fabio Labella</name>
+            <url>https://github.com/SystemFw</url>
+            <email>@SystemFw</email>
+        </developer>
+        <developer>
+            <id>alissapajer</id>
+            <name>Alissa Pajer</name>
+            <url>https://github.com/alissapajer</url>
+            <email>@alissapajer</email>
+        </developer>
+        <developer>
+            <id>djspiewak</id>
+            <name>Daniel Spiewak</name>
+            <url>https://github.com/djspiewak</url>
+            <email>@djspiewak</email>
+        </developer>
+        <developer>
+            <id>fthomas</id>
+            <name>Frank Thomas</name>
+            <url>https://github.com/fthomas</url>
+            <email>@fthomas</email>
+        </developer>
+        <developer>
+            <id>runarorama</id>
+            <name>Rúnar Ó. Bjarnason</name>
+            <url>https://github.com/runarorama</url>
+            <email>@runarorama</email>
+        </developer>
+        <developer>
+            <id>jedws</id>
+            <name>Jed Wesley-Smith</name>
+            <url>https://github.com/jedws</url>
+            <email>@jedws</email>
+        </developer>
+        <developer>
+            <id>durban</id>
+            <name>Daniel Urban</name>
+            <url>https://github.com/durban</url>
+            <email>@durban</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://www.javadoc.io/doc/co.fs2/fs2-docs_2.13/3.3.0/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-core_2.13</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-laws_2.13</artifactId>
+            <version>2.8.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect_2.13</artifactId>
+            <version>3.3.14</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect-laws_2.13</artifactId>
+            <version>3.3.14</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect-testkit_2.13</artifactId>
+            <version>3.3.14</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scodec</groupId>
+            <artifactId>scodec-bits_2.13</artifactId>
+            <version>1.1.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>scalacheck-effect-munit_2.13</artifactId>
+            <version>2.0.0-M2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>munit-cats-effect_2.13</artifactId>
+            <version>2.0.0-M3</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>discipline-munit_2.13</artifactId>
+            <version>2.0.0-M3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

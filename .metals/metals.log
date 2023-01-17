@@ -1,0 +1,53 @@
+2023.01.06 12:57:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\23_0104_Scalacoding_scala\.metals\lsp.trace.json or C:\Users\nICE\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.06 12:57:59 INFO  logging to file E:\23_0104_Scalacoding_scala\.metals\metals.log
+2023.01.06 12:57:59 INFO  Started: Metals version 0.11.10 in workspace 'E:\23_0104_Scalacoding_scala' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/nICE/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.06 12:58:02 INFO  time: initialize in 3s
+2023.01.06 12:58:06 WARN  Build server is not auto-connectable.
+2023.01.06 12:58:06 WARN  no build target for: E:\23_0104_Scalacoding_scala\build.sbt
+2023.01.06 12:58:15 INFO  no build target found for E:\23_0104_Scalacoding_scala\build.sbt. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.06 12:58:21 INFO  time: code lens generation in 14s
+2023.01.06 12:59:25 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\server.scala
+2023.01.06 12:59:26 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 12:59:29 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.06 13:01:41 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.06 13:02:25 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 13:02:30 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\server.scala
+2023.01.06 13:02:31 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 13:09:37 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\server.scala
+2023.01.06 13:09:40 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.06 13:15:29 WARN  no build target for: E:\Skill\test\src\main\request.scala
+2023.01.06 13:19:54 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\server.scala
+2023.01.06 13:19:56 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 13:20:01 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 13:20:02 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 13:20:07 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.06 13:20:09 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.06 13:20:16 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.06 13:21:15 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+Jan 06, 2023 1:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 219
+2023.01.06 13:21:17 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.12 08:35:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\23_0104_Scalacoding_scala\.metals\lsp.trace.json or C:\Users\nICE\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.12 08:35:37 INFO  logging to file E:\23_0104_Scalacoding_scala\.metals\metals.log
+2023.01.12 08:35:37 INFO  Started: Metals version 0.11.10 in workspace 'E:\23_0104_Scalacoding_scala' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/nICE/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.12 08:35:47 INFO  time: initialize in 9.74s
+2023.01.12 08:35:52 WARN  Build server is not auto-connectable.
+2023.01.12 08:35:52 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.12 08:36:06 INFO  no build target found for E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala. Using presentation compiler with project's scala-library version: 3.2.1
+2023.01.12 08:36:14 INFO  time: code lens generation in 20s
+2023.01.12 08:44:49 INFO  
+2023.01.12 08:44:49 INFO  Template applied in E:\23_0104_Scalacoding_scala\.\hello-world
+2023.01.12 08:44:49 INFO  
+2023.01.12 08:44:49 INFO  time: ran 'giter8.Giter8' in 41s

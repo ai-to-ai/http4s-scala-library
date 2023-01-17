@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.typelevel</groupId>
+    <artifactId>jawn-parser_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>parser</description>
+    <url>https://github.com/typelevel/jawn</url>
+    <version>1.4.0</version>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>parser</name>
+    <inceptionYear>2012</inceptionYear>
+    <organization>
+        <name>Typelevel</name>
+        <url>https://typelevel.org</url>
+    </organization>
+    <scm>
+        <url>https://github.com/typelevel/jawn</url>
+        <connection>scm:git:https://github.com/typelevel/jawn.git</connection>
+        <developerConnection>scm:git:git@github.com:typelevel/jawn.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>d_m</id>
+            <name>Erik Osheim</name>
+            <url>http://github.com/non/</url>
+            <email>erik@plastic-idolatry.com</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://www.javadoc.io/doc/org.typelevel/jawn-parser_2.13/1.4.0/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalacheck</groupId>
+            <artifactId>scalacheck_2.13</artifactId>
+            <version>1.16.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

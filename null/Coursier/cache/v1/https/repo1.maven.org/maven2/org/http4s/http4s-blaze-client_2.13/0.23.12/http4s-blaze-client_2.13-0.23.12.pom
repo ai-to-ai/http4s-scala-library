@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.http4s</groupId>
+    <artifactId>http4s-blaze-client_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>blaze implementation for http4s clients</description>
+    <url>https://github.com/http4s/blaze</url>
+    <version>0.23.12</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>http4s-blaze-client</name>
+    <inceptionYear>2014</inceptionYear>
+    <organization>
+        <name>http4s.org</name>
+    </organization>
+    <scm>
+        <url>https://github.com/http4s/blaze</url>
+        <connection>scm:git:https://github.com/http4s/blaze.git</connection>
+        <developerConnection>scm:git:git@github.com:http4s/blaze.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>bryce-anderson</id>
+            <name>Bryce L. Anderson</name>
+            <url>https://github.com/bryce-anderson</url>
+            <email>bryce.anderson22@gamil.com</email>
+        </developer>
+        <developer>
+            <id>rossabaker</id>
+            <name>Ross A. Baker</name>
+            <url>https://github.com/rossabaker</url>
+            <email>ross@rossabaker.com</email>
+        </developer>
+        <developer>
+            <id>ChristopherDavenport</id>
+            <name>Christopher Davenport</name>
+            <url>https://github.com/ChristopherDavenport</url>
+            <email>chris@christopherdavenport.tech</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://www.javadoc.io/doc/org.http4s/http4s-blaze-client_2.13/0.23.12/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.http4s</groupId>
+            <artifactId>http4s-blaze-core_2.13</artifactId>
+            <version>0.23.12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.http4s</groupId>
+            <artifactId>http4s-client_2.13</artifactId>
+            <version>0.23.12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.http4s</groupId>
+            <artifactId>http4s-client-testkit_2.13</artifactId>
+            <version>0.23.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

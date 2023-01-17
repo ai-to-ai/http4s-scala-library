@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>co.fs2</groupId>
+    <artifactId>fs2-io_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>fs2-io</description>
+    <url>https://typelevel.org/fs2</url>
+    <version>3.3.0</version>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>fs2-io</name>
+    <inceptionYear>2013</inceptionYear>
+    <organization>
+        <name>Functional Streams for Scala</name>
+    </organization>
+    <scm>
+        <url>https://github.com/typelevel/fs2</url>
+        <connection>scm:git:https://github.com/typelevel/fs2.git</connection>
+        <developerConnection>scm:git:git@github.com:typelevel/fs2.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>mpilquist</id>
+            <name>Michael Pilquist</name>
+            <url>https://github.com/mpilquist</url>
+            <email>@mpilquist</email>
+        </developer>
+        <developer>
+            <id>pchiusano</id>
+            <name>Paul Chiusano</name>
+            <url>https://github.com/pchiusano</url>
+            <email>@pchiusano</email>
+        </developer>
+        <developer>
+            <id>pchlupacek</id>
+            <name>Pavel Chlupáček</name>
+            <url>https://github.com/pchlupacek</url>
+            <email>@pchlupacek</email>
+        </developer>
+        <developer>
+            <id>SystemFw</id>
+            <name>Fabio Labella</name>
+            <url>https://github.com/SystemFw</url>
+            <email>@SystemFw</email>
+        </developer>
+        <developer>
+            <id>alissapajer</id>
+            <name>Alissa Pajer</name>
+            <url>https://github.com/alissapajer</url>
+            <email>@alissapajer</email>
+        </developer>
+        <developer>
+            <id>djspiewak</id>
+            <name>Daniel Spiewak</name>
+            <url>https://github.com/djspiewak</url>
+            <email>@djspiewak</email>
+        </developer>
+        <developer>
+            <id>fthomas</id>
+            <name>Frank Thomas</name>
+            <url>https://github.com/fthomas</url>
+            <email>@fthomas</email>
+        </developer>
+        <developer>
+            <id>runarorama</id>
+            <name>Rúnar Ó. Bjarnason</name>
+            <url>https://github.com/runarorama</url>
+            <email>@runarorama</email>
+        </developer>
+        <developer>
+            <id>jedws</id>
+            <name>Jed Wesley-Smith</name>
+            <url>https://github.com/jedws</url>
+            <email>@jedws</email>
+        </developer>
+        <developer>
+            <id>durban</id>
+            <name>Daniel Urban</name>
+            <url>https://github.com/durban</url>
+            <email>@durban</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://www.javadoc.io/doc/co.fs2/fs2-docs_2.13/3.3.0/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.8</version>
+        </dependency>
+        <dependency>
+            <groupId>co.fs2</groupId>
+            <artifactId>fs2-core_2.13</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.comcast</groupId>
+            <artifactId>ip4s-core_2.13</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jnr</groupId>
+            <artifactId>jnr-unixsocket</artifactId>
+            <version>0.38.17</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.google.jimfs</groupId>
+            <artifactId>jimfs</artifactId>
+            <version>1.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

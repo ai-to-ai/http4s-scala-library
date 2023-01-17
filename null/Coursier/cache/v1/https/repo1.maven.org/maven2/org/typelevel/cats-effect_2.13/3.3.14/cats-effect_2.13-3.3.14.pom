@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.typelevel</groupId>
+    <artifactId>cats-effect_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>cats-effect</description>
+    <url>https://github.com/typelevel/cats-effect</url>
+    <version>3.3.14</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>cats-effect</name>
+    <inceptionYear>2020</inceptionYear>
+    <organization>
+        <name>Typelevel</name>
+        <url>https://typelevel.org</url>
+    </organization>
+    <scm>
+        <url>https://github.com/typelevel/cats-effect</url>
+        <connection>git@github.com:typelevel/cats-effect.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>djspiewak</id>
+            <name>Daniel Spiewak</name>
+            <url>https://github.com/djspiewak</url>
+            <email>djspiewak@gmail.com</email>
+        </developer>
+        <developer>
+            <id>SystemFw</id>
+            <name>Fabio Labella</name>
+            <url>https://github.com/SystemFw</url>
+            <email>fabio.labella2@gmail.com</email>
+        </developer>
+        <developer>
+            <id>RaasAhsan</id>
+            <name>Raas Ahsan</name>
+            <url>https://github.com/RaasAhsan</url>
+            <email>raas.ahsan@gmail.com</email>
+        </developer>
+        <developer>
+            <id>TimWSpence</id>
+            <name>Tim Spence</name>
+            <url>https://github.com/TimWSpence</url>
+            <email>timothywspence@gmail.com</email>
+        </developer>
+        <developer>
+            <id>kubukoz</id>
+            <name>Jakub Kozłowski</name>
+            <url>https://github.com/kubukoz</url>
+            <email>kubukoz@gmail.com</email>
+        </developer>
+        <developer>
+            <id>mpilquist</id>
+            <name>Michael Pilquist</name>
+            <url>https://github.com/mpilquist</url>
+            <email>mpilquist@gmail.com</email>
+        </developer>
+        <developer>
+            <id>vasilmkd</id>
+            <name>Vasil Vasilev</name>
+            <url>https://github.com/vasilmkd</url>
+            <email>vasil@vasilev.io</email>
+        </developer>
+        <developer>
+            <id>bplommer</id>
+            <name>Ben Plommer</name>
+            <url>https://github.com/bplommer</url>
+            <email>ben.plommer@gmail.com</email>
+        </developer>
+        <developer>
+            <id>wemrysi</id>
+            <name>Emrys Ingersoll</name>
+            <url>https://github.com/wemrysi</url>
+            <email>ingersoll@gmail.com</email>
+        </developer>
+        <developer>
+            <id>armanbilge</id>
+            <name>Arman Bilge</name>
+            <url>https://github.com/armanbilge</url>
+            <email>armanbilge@gmail.com</email>
+        </developer>
+        <developer>
+            <id>gvolpe</id>
+            <name>Gabriel Volpe</name>
+            <url>https://github.com/gvolpe</url>
+            <email>volpegabriel@gmail.com</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.apiURL>https://typelevel.org/cats-effect/api/3.x/</info.apiURL>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect-kernel_2.13</artifactId>
+            <version>3.3.14</version>
+        </dependency>
+        <dependency>
+            <groupId>org.typelevel</groupId>
+            <artifactId>cats-effect-std_2.13</artifactId>
+            <version>3.3.14</version>
+        </dependency>
+    </dependencies>
+</project>
