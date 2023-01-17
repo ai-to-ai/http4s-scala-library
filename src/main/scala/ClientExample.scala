@@ -17,29 +17,52 @@ object ClientExample {
   case class AuthResponse(Session: String)
   case class ChallengeResponses(ANSWER: String, USERNAME: String)
   case class ClientMetadata(IssuedForService: String)
-  case class TokenRequest(ChallengeName: String, ChallengeResponses: ChallengeResponses, ClientId: String, ClientMetadata: ClientMetadata, Session: String)
+  case class TokenRequest(ChallengeName: String, ChallengeResponses: ChallengeResponses, ClientId: String, ClientMetadata: ClientMetadata, Session: Option[String])
   case class AuthenticationResult(AccessToken: String, ExpiresIn: Int, IdToken: String, RefreshToken: String, TokenType: String)
   case class TokenResponse(AuthenticationResult: AuthenticationResult)
 
   case class Token(IdToken: String, ExpiresIn: Int)
 
-    def interceptor(f: Int => String): Int => String = in => {
-    val result = f(in + 1)
-      s"${f(in)}, $result"
-    }
-
-    val f1: Int => String = _.toString
-
-    val wrapper: Int => String = interceptor(f1)
+  val cognitoUrl = uri"https://cognito-idp.us-east-1.amazonaws.com"
+  
+  val clientId = "538gsfq2es360re9bldpcspm57"
+  val username = "recognitosamplejava-6286e09dbb07d2d2cab2c1c9"
+  val authflow = "CUSTOM_AUTH"
+  val challengeName = "CUSTOM_CHALLENGE"
+  val challengeAnswer = "xjvTpWxVc2xTzGkf"
+  val issuedForService = "6286e09dbb07d2d2cab2c1c9"
+  val authResponseHeader = Headers(
+                            ("X-Amz-Target","AWSCognitoIdentityProviderService.InitiateAuth"),
+                            ("Content-Type","application/x-amz-json-1.1")
+                          )
+  val tokenResponseHeader = Headers(
+                            ("X-Amz-Target","AWSCognitoIdentityProviderService.RespondToAuthChallenge"),
+                            ("Content-Type","application/x-amz-json-1.1")
+                          )
+  val authRequest = AuthRequest(
+                      AuthParameters(username),
+                      authflow,
+                      clientId
+                    )
+  val tokenRequest = TokenRequest(
+                      challengeName,
+                      ChallengeResponses(
+                        challengeAnswer,
+                        username
+                      ),
+                      clientId,
+                      ClientMetadata(issuedForService),
+                      None
+                    )
 
   def getAuthResponse(client: Client[IO], authRequest: Entity[IO]): IO[String] = {
     for {
       response <- client
         .expect(Request[IO](
           Method.POST,
-          uri"https://cognito-idp.us-east-1.amazonaws.com",
+          cognitoUrl,
           body = authRequest.body,
-          headers = Headers(("X-Amz-Target","AWSCognitoIdentityProviderService.InitiateAuth"),("Content-Type","application/x-amz-json-1.1"))
+          headers = authResponseHeader
         ))(jsonOf[IO, AuthResponse])
     } yield response.Session
   }
@@ -49,21 +72,18 @@ object ClientExample {
       response <- client
         .expect(Request[IO](
           Method.POST,
-          uri"https://cognito-idp.us-east-1.amazonaws.com",
+          cognitoUrl,
           body = tokenRequest.body,
-          headers = Headers(("X-Amz-Target","AWSCognitoIdentityProviderService.RespondToAuthChallenge"),("Content-Type","application/x-amz-json-1.1"))
+          headers = tokenResponseHeader
         ))(jsonOf[IO, TokenResponse])
     } yield response.AuthenticationResult
   }
 
-  // def run(args: List[String]): IO[ExitCode] =ExitCode.Success
-
   def getData(): IO[AuthenticationResult] =
     BlazeClientBuilder[IO].resource.use{
       client => for {
-        authResponse <- getAuthResponse(client, jsonEncoderOf[IO, AuthRequest].toEntity(AuthRequest(AuthParameters("recognitosamplejava-6286e09dbb07d2d2cab2c1c9"),"CUSTOM_AUTH","538gsfq2es360re9bldpcspm57")))
-        token <- getTokenResponse(client, jsonEncoderOf[IO, TokenRequest].toEntity(TokenRequest("CUSTOM_CHALLENGE",ChallengeResponses("xjvTpWxVc2xTzGkf","recognitosamplejava-6286e09dbb07d2d2cab2c1c9"),"538gsfq2es360re9bldpcspm57",ClientMetadata("6286e09dbb07d2d2cab2c1c9"),authResponse)))
-        _ <- IO.println(token)
+        authResponse <- getAuthResponse(client, jsonEncoderOf[IO, AuthRequest].toEntity(authRequest))    
+        token <- getTokenResponse(client, jsonEncoderOf[IO, TokenRequest].toEntity(tokenRequest.copy(Session = Some(authResponse))))
       } yield (token)
     }
   

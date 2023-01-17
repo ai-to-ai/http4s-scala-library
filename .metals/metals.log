@@ -51,3 +51,250 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.01.12 08:44:49 INFO  Template applied in E:\23_0104_Scalacoding_scala\.\hello-world
 2023.01.12 08:44:49 INFO  
 2023.01.12 08:44:49 INFO  time: ran 'giter8.Giter8' in 41s
+2023.01.17 11:50:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\23_0104_Scalacoding_scala\.metals\lsp.trace.json or C:\Users\nICE\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.17 11:50:56 INFO  logging to file E:\23_0104_Scalacoding_scala\.metals\metals.log
+2023.01.17 11:50:56 INFO  Started: Metals version 0.11.10 in workspace 'E:\23_0104_Scalacoding_scala' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/nICE/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.17 11:51:08 INFO  time: initialize in 12s
+2023.01.17 11:51:11 WARN  Build server is not auto-connectable.
+2023.01.17 11:51:11 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 11:51:11 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 11:51:12 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+Jan 17, 2023 11:51:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jan 17, 2023 11:51:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 17, 2023 11:51:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2023.01.17 11:51:24 INFO  no build target found for E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.1
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2023.01.17 11:51:25 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\server.scala
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Jan 17, 2023 11:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+2023.01.17 11:51:29 INFO  time: code lens generation in 4.13s
+2023.01.17 11:51:29 INFO  time: code lens generation in 4.01s
+2023.01.17 11:51:29 INFO  time: code lens generation in 4.09s
+2023.01.17 11:51:29 INFO  time: code lens generation in 4.17s
+2023.01.17 11:51:30 INFO  time: code lens generation in 16s
+2023.01.17 11:51:30 INFO  time: code lens generation in 5.04s
+2023.01.17 11:51:30 INFO  time: code lens generation in 17s
+2023.01.17 11:51:30 INFO  time: code lens generation in 17s
+2023.01.17 11:51:30 INFO  time: code lens generation in 1.11s
+2023.01.17 11:58:56 WARN  no build target for: E:\23_0104_Scalacoding_scala\build.sbt
+2023.01.17 11:59:11 WARN  no build target for: E:\23_0104_Scalacoding_scala\build.sbt
+2023.01.17 11:59:24 WARN  no build target for: E:\23_0104_Scalacoding_scala\build.sbt
+2023.01.17 12:01:46 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:01:46 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:10:06 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Routes.scala
+2023.01.17 12:10:17 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:10:44 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:10:50 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+Jan 17, 2023 12:11:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 496
+2023.01.17 12:11:37 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:11:40 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+Jan 17, 2023 12:11:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Jan 17, 2023 12:11:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.01.17 12:11:46 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:12:12 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:12:16 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+Jan 17, 2023 12:12:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.01.17 12:12:19 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:15:47 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:16:31 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:16:36 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+Jan 17, 2023 12:16:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 813
+2023.01.17 12:18:03 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:18:15 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:18:55 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:22:58 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:22:59 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+Jan 17, 2023 12:22:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.01.17 12:23:17 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:23:32 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+Jan 17, 2023 12:23:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.01.17 12:24:53 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:26:52 WARN  Build server is not auto-connectable.
+2023.01.17 12:26:54 WARN  Build server is not auto-connectable.
+2023.01.17 12:26:54 WARN  Build server is not auto-connectable.
+Jan 17, 2023 12:26:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.01.17 12:28:27 WARN  no build target for: C:\Users\nICE\AppData\Local\Temp\Rar$DIa20160.8922\Main.scala
+2023.01.17 12:35:22 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:36:33 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:37:31 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:38:14 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:38:18 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:42:04 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:43:24 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:44:25 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:46:29 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\ClientExample.scala
+2023.01.17 12:47:00 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:47:50 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:49:41 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:49:48 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:50:39 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:50:45 WARN  no build target for: E:\23_0104_Scalacoding_scala\src\main\scala\Main.scala
+2023.01.17 12:51:26 WARN  no build target for: E:\Skill\test\src\main\request.scala
